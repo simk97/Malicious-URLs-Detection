@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[117]:
-
 
 allTokens = []
 def getTokens(input):
@@ -19,10 +17,6 @@ def getTokens(input):
         if 'com' in allTokens:
             allTokens.remove('com') 
 return allTokens
-
-
-# In[ ]:
-
 
 import pandas as pd
 import random
@@ -53,10 +47,3 @@ def TL():
     y_Predict = lgs.predict(X_predict)
     print(y_Predict)
 return vectorizer, lgs
-
-
-# In[133]:
-
-
-TL()
-
